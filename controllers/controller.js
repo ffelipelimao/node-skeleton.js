@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-router.get('/atendimento', (req, res) => {
+router.get('/', (req, res) => {
     res.send({
         statusCode: 200,
         message: 'Sua primeira requisição',
